@@ -2,7 +2,6 @@ import { FormatoData } from "../types/enums/FormatoData.js";
 import Conta from "../models/Conta.js";
 import Formatadores from "../utils/Fomatadores.js";
 import Transacao from "../models/Transacao.js";
-import ContaPremium from "../models/ContraPremium.js";
 
 export default class ContaController {
   private elementoSaldo = document.querySelector(

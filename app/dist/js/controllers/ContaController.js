@@ -1,6 +1,6 @@
 import { FormatoData } from "../types/enums/FormatoData.js";
+import Conta from "../models/Conta.js";
 import Formatadores from "../utils/Fomatadores.js";
-import ContaPremium from "../models/ContraPremium.js";
 export default class ContaController {
     nome;
     saldo;
@@ -13,7 +13,7 @@ export default class ContaController {
         this.nome = nome;
         this.saldo = saldo;
         this.extrato = extrato;
-        this.cliente = new ContaPremium(nome, saldo, extrato);
+        this.cliente = new Conta(nome, saldo, extrato);
         this.iniciarClienteController();
     }
     exibirCliente() {
