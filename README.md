@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <a href="https://github.com/coelhoalexandre/projeto-alura-codeconnect/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a> <img src="https://img.shields.io/badge/Completo-lightgreen.svg" alt="Completo">
+  <a href="https://github.com/coelhoalexandre/projeto-alura-ts-bytebank/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a> <img src="https://img.shields.io/badge/Completo-lightgreen.svg" alt="Completo">
 
 </div>
 
@@ -16,22 +16,27 @@
 ## Sobre o Projeto
  
 Projeto feito em dois cursos, sendo o primeiro com o instrutor 
-**Jhonatan Jacinto** e o segundo com a instrutora [**Mônica Hillman**](https://github.com/MonicaHillman). Os cursos, em respectivo, foram: TypeScript na prática: implemente um projeto completo com TypeScript e módulos e TypeScript: aplicando orientação a objetos no Front-end Esse projeto foi o básico para entender e iniciar React.
+**Jhonatan Jacinto** e o segundo com a instrutora [**Mônica Hillman**](https://github.com/MonicaHillman). Os cursos, em respectivo, foram: [TypeScript na prática: implemente um projeto completo com TypeScript e módulos](https://cursos.alura.com.br/course/typescript-pratica-projeto-completo-typescript-modulos) e [TypeScript: aplicando orientação a objetos no Front-end](https://cursos.alura.com.br/course/typescript-orientado-objetos).
 
 ## Objetivos do Projeto
 
-- Aprender o que é e como estruturar uma página de login usando componentes React;
-- Fazer a manipulação de eventos para interações do usuário com a interface;
-- Realizar a integração das bibliotecas React, React DOM e da ferram1enta Babel no seu projeto via CDN;
-- Gerencare estados através do useState;
-- Transformar componentes em dinâmicos com props e props children.
+- Compreender os fundamentos e conceitos do TypeScript;
+- Aprender a refatorar e melhorar seu projeto usando TypeScript;
+- Entender a configuração e compilação do código TypeScript;
+- Explorar recursos como tipos primitivos, arrays, Type Alias e Enums;
+- Organizar e dividir o projeto em módulos eficientes;
+- Compreender as características do paradigma funcional e de orientação a objetos com Typescript;
+- Aprender a construir classes e métodos;
+- Saber como utilizar modificadores de acesso para melhorar a segurança do seu projeto;
+- Conhecer o conceito de herança para construir novas classes sem repetir código;
+- Realizar a implementação de validações a partir de decorators.
 
 ## Tecnolgias Utilizadas
 
 1. HTML
 2. CSS
 3. JS
-4. React
+4. TS
 
 ## Autor
 Meu nome é **Alexandre Coelho**, sou autor deste ReadMe e estudante de Desenvolvimento Web. 
