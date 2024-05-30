@@ -21,7 +21,7 @@ export default class ContaController {
     private readonly saldo: number,
     private readonly extrato?: Transacao[]
   ) {
-    this.cliente = new ContaPremium(nome, saldo, extrato);
+    this.cliente = new Conta(nome, saldo, extrato);
     this.iniciarClienteController();
   }
 
