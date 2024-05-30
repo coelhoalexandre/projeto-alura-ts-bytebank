@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "outDir": "./app/dist/js/",
+    "noEmitOnError": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "strictNullChecks": true
+  },
+  "include": ["./app/src/**/*"]
+}
