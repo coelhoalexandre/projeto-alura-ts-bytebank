@@ -9,7 +9,6 @@ const extratoNoLocalStorage = Armazenador.obter("Extrato", (key, value) => {
     }
     return value;
 }) || [];
-console.log(extratoNoLocalStorage);
 const controller = new MainController(new ContaController("Joana", saldoNoLocalStorage, extratoNoLocalStorage), new TransacaoController(extratoNoLocalStorage));
 const elementoFormulario = document.querySelector(".block-nova-transacao form");
 elementoFormulario.addEventListener("submit", (event) => {

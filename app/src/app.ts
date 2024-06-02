@@ -13,7 +13,6 @@ const extratoNoLocalStorage: Transacao[] =
     return value;
   }) || [];
 
-console.log(extratoNoLocalStorage);
 const controller = new MainController(
   new ContaController("Joana", saldoNoLocalStorage, extratoNoLocalStorage),
   new TransacaoController(extratoNoLocalStorage)

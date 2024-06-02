@@ -10,7 +10,6 @@ export default class MainController {
         this.transacaoController = transacaoController;
         this.cliente = clienteController.exibirCliente();
         this.atualizarRenderizacao();
-        console.log(this.cliente.extrato);
     }
     novaTransacao() {
         const objeto = this.transacaoController.criarTransacao(this.cliente.saldo);

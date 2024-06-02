@@ -14,7 +14,6 @@ export default class MainController {
   ) {
     this.cliente = clienteController.exibirCliente();
     this.atualizarRenderizacao();
-    console.log(this.cliente.extrato);
   }
 
   public novaTransacao() {
